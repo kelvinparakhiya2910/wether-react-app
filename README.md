@@ -9,15 +9,20 @@ The Weather Dashboard Application allows users to search for and display weather
 - Search for a city and display current weather data.
 - View weather information including temperature, humidity, wind speed, etc.
 - Error handling for invalid city names and API issues.
-- Responsive design for different screen sizes.
+
+## User Authentication
+
+- Sign-up functionality for new users to create an account.
+- Login functionality for existing users to authenticate and access the dashboard.
+- Error handling for invalid credentials and missing information during signup or login.
 
 ## Technologies Used
 
-- React.js
+- React.js for building the user interface.
 - Vite for project setup and bundling
-- OpenWeatherMap API (or your chosen weather API)
-- React Hooks (useState, useEffect, useContext)
-- CSS for styling
+- OpenWeatherMap API (or your chosen weather API) for weather data.
+- React Hooks (useState, useEffect, useContext) for managing component state and effects.
+- CSS for styling the user interface.
 
 ## Setup and Installation
 
@@ -32,18 +37,18 @@ The Weather Dashboard Application allows users to search for and display weather
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/weather-dashboard.git
-   cd weather-dashboard
+   https://github.com/kelvinparakhiya2910/wether-react-app.git
+   cd wether-react-app
    ```
 
 2. **Install Dependencies:**
 
-```bash
- npm install
-```
+   ```bash
+   npm install
+   ```
 
 3. **Run project from bellow command**
 
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
