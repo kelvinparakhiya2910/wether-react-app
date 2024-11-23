@@ -1,17 +1,49 @@
-# React + Vite
+# Weather Dashboard Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Objective
 
-Currently, two official plugins are available:
+The Weather Dashboard Application allows users to search for and display weather information for different cities using an external weather API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-<strong>
-  To run this project:- </br>
-  1) Clone the project or Download the zip file </br>
-  2) Use command "npm install" or "npm i" </br>
-  3) Use command "npm run dev" to start the app in local.
-</strong>
-</br>
+## Features
 
-This is a simple project with validations for the required fields.
+- Search for a city and display current weather data.
+- View weather information including temperature, humidity, wind speed, etc.
+- Error handling for invalid city names and API issues.
+- Responsive design for different screen sizes.
+
+## Technologies Used
+
+- React.js
+- Vite for project setup and bundling
+- OpenWeatherMap API (or your chosen weather API)
+- React Hooks (useState, useEffect, useContext)
+- CSS for styling
+
+## Setup and Installation
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- A text editor (e.g., VS Code)
+- An OpenWeatherMap API key (or your chosen API key)
+
+### Steps to Run the Project Locally
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/your-username/weather-dashboard.git
+   cd weather-dashboard
+   ```
+
+2. **Install Dependencies:**
+
+```bash
+ npm install
+```
+
+3. **Run project from bellow command**
+
+```bash
+npm run dev
+```
